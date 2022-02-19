@@ -1,0 +1,14 @@
+Incident Response Script
+
+Option 2 allows you to act on a list of computers
+The list can be built from computers objects stored in AD. Here are some examples
+
+List of all Windows 7 computers
+Get-ADComputer -Filter {OperatingSystem -like 'Windows 7*'} | Select-Object samaccountname 
+List of Windows 7 enabled computers
+Get-ADComputer -Filter {OperatingSystem -like 'Windows 7*' -and Enabled -eq $true} | Select-Object samaccountname 
+List of Windows 7 enabled accounts for PCO in GVA site
+Get-ADComputer -Filter {OperatingSystem -like 'Windows 7*' -and Enabled -eq $true} -SearchBase 'OU DN' | Select-Object samaccountname 
+List of Windows 7 enabled accounts that logged on the last 30 days
+$d =  (Get-Date).AddDays(-30); Get-ADComputer -filter {LastLogonDate -ge $d -and OperatingSystem -like 'Windows 7*' -and Enabled -eq $true } 
+

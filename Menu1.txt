@@ -1,0 +1,12 @@
+1. Check file existence 
+2. Check file ACL 
+3. Check value in file 
+4. Check file version 
+5. Check file signature 
+6. List files created from xx hours 
+7. List files accessed from xx hours 
+8. List files written from xx hours 
+9. Rename a file 
+10. Delete a file or folder 
+11. Edit file content 
+12. Copy local folder to remote computer

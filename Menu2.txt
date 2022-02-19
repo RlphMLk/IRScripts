@@ -1,0 +1,6 @@
+1. Status of a service 
+2. Stop a service 
+3. Start a service 
+4. Set a service to disabled 
+5. Set a service to manual 
+6. set a service to automatic 

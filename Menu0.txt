@@ -1,0 +1,30 @@
+1. File 
+	File related action such as checking a file existence, ACL, signature, version
+	List files created, accessed, written during the last x hours
+	Rename, Delete a file
+	Check if a specific value exist in a file and replace it
+2. Service 
+	Windows service related actions
+	Check the status of a service
+	Stop or start a service
+	change a service startup mode (aotmatic, manual, disabled)
+3. Registry 
+	Registry related actions
+	Check or modfiy a registry value
+	Create or delete a registry key value
+4. Process 
+	Process related actions
+	check if a process is running
+	Stop or start a process
+5. Computer 
+	Computer related actions
+	Restart or shutdown a computer
+	List current logged on users
+	List profiles on a computer with last access time
+6. Network 
+	Add or remove an entry into the HOSTS file	
+7. Local User 
+	Local users related actions
+	Check if a local user is enabled or disabled
+	Enable or disable a local user
+	List and manage members of the local Administrators group

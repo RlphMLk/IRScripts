@@ -1,0 +1,2 @@
+1. Add entry into HOSTS file 
+2. Remove entry from HOSTS file 

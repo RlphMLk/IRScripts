@@ -1,0 +1,4 @@
+1. Restart computers 
+2. Shutdown computers 
+3. List currently logon user 
+4. List profiles folder with last access date 

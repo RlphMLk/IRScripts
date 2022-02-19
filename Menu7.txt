@@ -1,0 +1,8 @@
+1. List local user state 
+2. Enable local user 
+3. Disable local user 
+4. List member of the local Administrators group
+5. Add a user to the local Administrators group
+6. Add a group to the local Administrators group
+7. Remove a user from the local Administrators group
+8. Remove a group from the local Administrators group
